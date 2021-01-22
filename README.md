@@ -1,5 +1,7 @@
 # _Mr. Roboger's Neighborhood_
 
+![Mr. Robo Roger's Neighborhood](/img/roborogers.jpg 'Mr. Robo Roger's Neighborhood')
+
 #### _A webpage application that accepts a numerical input from a user and returns a range of numbers (from 0 to the inputted number)_
 
 #### By _**Chloe Loveall**_
