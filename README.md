@@ -23,6 +23,10 @@
 _Third independent Epicodus project that creates an application that accepts a numerical input from a user and returns a range of number (from 0 to the user's inputted number). However, the application replaces all numbers that contain a 1 with 'Beep!', all number that contain a 2 with 'Boop!', and all number that contain a 3 with 'Won't you be my neighbor?'_<br><br>
 _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-neighborhood/)_
 
+## Note to Epicodus Instructors
+
+1/22/2021 - I am reviewing previous lessons on looping from the week because I don't understand how to proceed with the project. There will be a gap in commits while I do that.
+
 ## Setup/Installation Requirements
 
 1. Clone the repository
