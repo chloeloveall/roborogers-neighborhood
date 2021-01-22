@@ -1,5 +1,5 @@
 function beepBoop(number) {
-  return number.toString();
+  return number.toString().split('');
   if (number === 1) {
     return 'Beep!';
   } else if (number === 2) {
@@ -10,4 +10,4 @@ function beepBoop(number) {
     return number;
   }
 }
-console.log(beepBoop(0));
+console.log(beepBoop(10));
