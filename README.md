@@ -32,16 +32,18 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 
 ## Specifications
 
-| Behavior                  | Input Example | Output Example              |
-| ------------------------- | :-----------: | --------------------------- |
-| Numbers that contain a 1  | 1             | 'Beep!'                     |
-| Numbers that contain a 2  | 2             | 'Boop!'                     |
-| Numbers that contain a 3  | 3             | 'Won't you be my neighbor?' |
+| Behavior                                | Input Example | Output Example              |
+| --------------------------------------- | :-----------: | --------------------------- |
+| Numbers that do NOT contain 1, 2, or 3  | 0             | '0'                         |
+| Numbers that contain a 1                | 1             | 'Beep!'                     |
+| Numbers that contain a 2                | 2             | 'Boop!'                     |
+| Numbers that contain a 3                | 3             | 'Won't you be my neighbor?' |
 
 Describe: beepBoop()<br>
 Test: 'It should return an array with a 0 if the number 0 is inputted'<br>
-Expect(beepBoop(0).toEqual([0]));
-
+Expect(beepBoop(0).toEqual([0]));<br>
+Test: 'It should return return an array with `'0', 'Beep!'` if 1 is inputted'<br>
+Expect(beepBoop(1).toEqual([`'0', 'Beep!'`]));
 
 ## Known Bugs
 
