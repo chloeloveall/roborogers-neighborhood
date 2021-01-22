@@ -1,3 +1,5 @@
+//Business logic
+
 function beepBoop(number) {
   if (number === '1') {
     return 'Beep!';
@@ -9,6 +11,18 @@ function beepBoop(number) {
     return number;
   }
   };
-console.log(beepBoop('0'));
+console.log(beepBoop('2'));
 
 // return number.toString().split('');
+
+//User interface Logic
+
+$(document).ready(function() {
+  $('#form-number').submit(function(event) {
+    event.preventDefault();
+
+    const userNumberInput = $('input#userNumber').val();
+    
+    $('#form-number')[0].reset();
+  });
+});
