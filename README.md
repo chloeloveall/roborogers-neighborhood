@@ -56,6 +56,9 @@ Expect(beepBoop(3).toEqual(`'Won't you be my neighbor?'`));
 Test: 'It converts inputted number to string'
 Expect(beepBoop(0)toEqual(`'0'`));
 
+Test: 'It splits number with multiple digits'
+Expect(beepBoop(10)toEqual(`'1', '0'`));
+
 <!-- Test: 'It recognizes an inputted number containing the number 1'
 Expect(beepBoop(01).toEqual(`'Beep!'`)); -->
 
