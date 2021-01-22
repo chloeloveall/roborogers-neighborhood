@@ -39,8 +39,9 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 | Numbers that contain a 2                | 2             | 'Boop!'                     |
 | Numbers that contain a 3                | 3             | 'Won't you be my neighbor?' |
 
-Describe: beepBoop()<br>
-Test: 'It should return a value of 0 if the number 0 is inputted'<br>
+Describe: beepBoop()
+
+Test: 'It should return a value of 0 if the number 0 is inputted'
 Expect(beepBoop(0).toEqual(`0`));<br>
 Test: 'It should return return a value of `'Beep!'` if the number 1 is inputted'<br>
 Expect(beepBoop(1).toEqual(`'Beep!'`));<br>
@@ -48,6 +49,8 @@ Test: 'It should return a value of `'Boop!` if the number 2 is inputted'<br>
 Expect(beepBoop(2).toEqual(`'Boop!'`));<br>
 Test: 'It should return a value of `'Won't you be my neighbor?'` if the number 3 inputted'<br>
 Expect(beepBoop(3).toEqual(`'Won't you be my neighbor?'`));<br>
+Test: 'It recognizes an inputted number containing the number 1'<br>
+Expect(beepBoop(01).toEqual(`'Beep!'`));<br>
 
 ## Known Bugs
 
