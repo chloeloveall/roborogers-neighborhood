@@ -41,23 +41,26 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 
 Describe: beepBoop()
 
-Test: 'It should return a value of 0 if the number 0 is inputted'
-Expect(beepBoop(0).toEqual(`0`));
+Test: 'It should return a value of `'0'` if the string `'0'` is inputted'
+Expect(beepBoop(`'0'`).toEqual(`0`));
 
-Test: 'It should return return a value of `'Beep!'` if the number 1 is inputted'
-Expect(beepBoop(1).toEqual(`'Beep!'`));
+Test: 'It should return return a value of `'Beep!'` if the string `'1'` is inputted'
+Expect(beepBoop(`'1'`).toEqual(`'Beep!'`));
 
-Test: 'It should return a value of `'Boop!` if the number 2 is inputted'
-Expect(beepBoop(2).toEqual(`'Boop!'`));
+Test: 'It should return a value of `'Boop!` if the string `'2'` is inputted'
+Expect(beepBoop(`'2'`).toEqual(`'Boop!'`));
 
-Test: 'It should return a value of `'Won't you be my neighbor?'` if the number 3 inputted'
-Expect(beepBoop(3).toEqual(`'Won't you be my neighbor?'`));
+Test: 'It should return a value of `'Won't you be my neighbor?'` if the string `'3'` is inputted'
+Expect(beepBoop(`'3'`).toEqual(`'Won't you be my neighbor?'`));
 
-Test: 'It converts inputted number to string'
+<!-- Test: 'It converts inputted number to string'
 Expect(beepBoop(0)toEqual(`'0'`));
 
 Test: 'It splits number with multiple digits'
-Expect(beepBoop(10)toEqual(`'1', '0'`));
+Expect(beepBoop(10)toEqual(`'1', '0'`)); -->
+
+<!-- Test: 'It converts each string back into a number'
+Expect(beepBoop(10).toEqual(`1, 0`)); -->
 
 <!-- Test: 'It recognizes an inputted number containing the number 1'
 Expect(beepBoop(01).toEqual(`'Beep!'`)); -->
