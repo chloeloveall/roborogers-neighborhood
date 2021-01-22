@@ -41,9 +41,11 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 
 Describe: beepBoop()<br>
 Test: 'It should return a value of 0 if the number 0 is inputted'<br>
-Expect(beepBoop(0).toEqual([0]));<br>
-Test: 'It should return return a value of `'Beep!'` if 1 is inputted'<br>
-Expect(beepBoop(1).toEqual([`'Beep!'`]));
+Expect(beepBoop(0).toEqual(`0`));<br>
+Test: 'It should return return a value of `'Beep!'` if the number 1 is inputted'<br>
+Expect(beepBoop(1).toEqual(`'Beep!'`));<br>
+Test: 'It should return a value of `'Boop!` if the number 2 is inputted'<br>
+Expect(beepBoop(2).toEqual(`'Boop!'`));<br>
 
 ## Known Bugs
 
