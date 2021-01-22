@@ -46,6 +46,8 @@ Test: 'It should return return a value of `'Beep!'` if the number 1 is inputted'
 Expect(beepBoop(1).toEqual(`'Beep!'`));<br>
 Test: 'It should return a value of `'Boop!` if the number 2 is inputted'<br>
 Expect(beepBoop(2).toEqual(`'Boop!'`));<br>
+Test: 'It should return a value of `'Won't you be my neighbor?'` if the number 3 inputted'<br>
+Expect(beepBoop(3).toEqual(`'Won't you be my neighbor?'`));<br>
 
 ## Known Bugs
 
