@@ -1,6 +1,6 @@
 # _Mr. Roboger's Neighborhood_
 
-![Mr Robogers](img/robogers.jpg)
+![Mr Robogers](img/roborogers.jpg)
 
 #### _A webpage application that accepts a numerical input from a user and returns a range of numbers (from 0 to the inputted number)_
 
@@ -14,7 +14,6 @@
 * Git
 * Github
 * VS Code
-* coolers.co
 * JavaScript
 * jQuery
 
@@ -25,7 +24,7 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 
 ## Note to Epicodus Instructors
 
-1/22/2021 - I am reviewing previous lessons on looping from the week because I don't understand how to proceed with the project. There will be a gap in commits while I do that.
+1/22/2021 - I am reviewing previous lessons on looping from the week because I don't understand how to proceed with the project. There will be a gap in commits while I do that. I also went through all of the looping lessons on Codecademy.com (in the Introduction to JavaScript Course).
 
 ## Setup/Installation Requirements
 
