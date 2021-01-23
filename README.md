@@ -1,6 +1,6 @@
 # _Mr. Roboger's Neighborhood_
 
-![Mr Robo Rogers](img/roborogers.jpg)
+![Mr Robogers](img/robogers.jpg)
 
 #### _A webpage application that accepts a numerical input from a user and returns a range of numbers (from 0 to the inputted number)_
 
