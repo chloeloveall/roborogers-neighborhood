@@ -5,7 +5,7 @@ function beepBoop(number) {
   
   if (number % 1 !== 0) {
     return 'Not a valid entry';
-  }
+  };
 
   for (let i = 0; i <= number; i++) {
     let iString = i.toString();
@@ -18,7 +18,7 @@ function beepBoop(number) {
     } else {
       countingArray.push(i + '... ');
     }
-  }
+  };
   return countingArray.join(' ');
 };
 
