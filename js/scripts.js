@@ -1,21 +1,20 @@
 // Business logic
 
 function beepBoop(number) {
-  if (number === '1') {
-    return 'Beep!';
+  if (number === '3') {
+    return 'Won\'t you be my neighbor?'
   } else if (number === '2') {
     return 'Boop!';
-  } else if (number === '3') {
-    return 'Won\'t you be my neighbor?';
+  } else if (number === '1') {
+    return 'Beep!';
   } else {
     return number;
   }
-  };
-console.log(beepBoop('2'));
+};
+console.log(beepBoop('11'));
 
-// return number.toString().split('');
 
-// User interface Logic
+// User Interface Logic
 
 $(document).ready(function() {
   $('#form-number').submit(function(event) {
