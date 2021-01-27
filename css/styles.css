@@ -47,6 +47,7 @@ h2 {
 }
 
 #robotResults {
+  display: none;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
