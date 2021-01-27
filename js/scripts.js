@@ -16,10 +16,10 @@ function beepBoop(number) {
     } else if (iString.includes('1')) {
       countingArray.push('Beep!');
     } else {
-      countingArray.push(i);
+      countingArray.push(i + '... ');
     }
   }
-  return countingArray.join('... ');
+  return countingArray.join(' ');
 };
 
 
