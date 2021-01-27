@@ -19,7 +19,7 @@ function beepBoop(number) {
       countingArray.push(i);
     }
   }
-  return countingArray;
+  return countingArray.join('...');
 };
 
 
