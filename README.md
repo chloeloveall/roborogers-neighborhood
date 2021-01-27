@@ -65,18 +65,6 @@ Expect(beepBoop(`'13'`).toEqual(`'Won't you be my neighbor?'`));
 Test: 'It should return a value of `'Not a valid entry'` if the input value inputted is not an integer'
 Expect(beepBoop(`'banana'`).toEqual(`'Not a valid entry'`))
 
-<!-- Test: 'It converts inputted number to string'
-Expect(beepBoop(0)toEqual(`'0'`));
-
-Test: 'It splits number with multiple digits'
-Expect(beepBoop(10)toEqual(`'1', '0'`)); -->
-
-<!-- Test: 'It converts each string back into a number'
-Expect(beepBoop(10).toEqual(`1, 0`)); -->
-
-<!-- Test: 'It recognizes an inputted number containing the number 1'
-Expect(beepBoop(01).toEqual(`'Beep!'`)); -->
-
 ## Known Bugs
 
 * None
