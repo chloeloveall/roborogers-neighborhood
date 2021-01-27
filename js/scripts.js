@@ -1,7 +1,7 @@
 // Business logic
 
 function beepBoop(number) {
-  if (number === '3') {
+  if (number.includes('3')) {
     return 'Won\'t you be my neighbor?'
   } else if (number === '2') {
     return 'Boop!';
@@ -11,7 +11,7 @@ function beepBoop(number) {
     return number;
   }
 };
-console.log(beepBoop('11'));
+console.log(beepBoop('56788876673676879'));
 
 
 // User Interface Logic
