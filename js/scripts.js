@@ -27,10 +27,12 @@ function beepBoop(number) {
 // User Interface Logic
 
 $(document).ready(function() {
-  $('#form-number').submit(function(event) {P
+  $('#form-number').submit(function(event) {
     event.preventDefault();
 
     const userNumberInput = $('input#userNumber').val();
+
+    $('#robotResults').text(beepBoop(userNumberInput));
     
     $('#form-number')[0].reset();
   });
