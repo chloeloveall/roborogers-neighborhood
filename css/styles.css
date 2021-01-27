@@ -46,6 +46,16 @@ h2 {
   margin-bottom: 20px;
 }
 
+.submitBtn:hover {
+  background-color: #5BC0BE;
+  color: #000000;
+}
+
+.submitBtn:active {
+  background-color: #0B132B;
+  color: #ffffff;
+}
+
 #robotResults {
   display: none;
   margin-top: 20px;
