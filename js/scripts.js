@@ -32,7 +32,7 @@ $(document).ready(function() {
 
     const userNumberInput = $('input#userNumber').val();
 
-    $('#robotResults').text(beepBoop(userNumberInput));
+    $('#robotResults').text(beepBoop(userNumberInput)).show();
     
     $('#form-number')[0].reset();
   });
