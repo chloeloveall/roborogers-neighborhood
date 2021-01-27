@@ -3,7 +3,7 @@
 function beepBoop(number) {
   let countingArray = [];
   
-  if (number % 1 !== 0) {
+  if (number % 1 !== 0 || number === '') {
     return 'Not a valid entry';
   };
 
