@@ -56,6 +56,9 @@ Expect(beepBoop(`'2'`).toEqual(`'Boop!'`));
 Test: 'It should return a value of `'Won't you be my neighbor?'` if the string `'3'` is inputted'
 Expect(beepBoop(`'3'`).toEqual(`'Won't you be my neighbor?'`));
 
+Test: 'It should return a value of `'Won't you be my neighbor?'` if the string`'13'` is inputted'
+Expect(beepBoop(`'13'`).toEqual(`'Won't you be my neighbor?'`));
+
 <!-- Test: 'It converts inputted number to string'
 Expect(beepBoop(0)toEqual(`'0'`));
 
