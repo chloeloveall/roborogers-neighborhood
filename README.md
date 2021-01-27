@@ -44,6 +44,9 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/robogers-ne
 
 Describe: beepBoop()
 
+Test: 'It should return an array of numbers from 0 to inputted number'
+Expect(beepBoop(`'5'`).toEqual(`'0, 1, 2, 3, 4, 5'`))
+
 Test: 'It should return a value of `'0'` if the string `'0'` is inputted'
 Expect(beepBoop(`'0'`).toEqual(`0`));
 
@@ -59,8 +62,8 @@ Expect(beepBoop(`'3'`).toEqual(`'Won't you be my neighbor?'`));
 Test: 'It should return a value of `'Won't you be my neighbor?'` if the string`'13'` is inputted'
 Expect(beepBoop(`'13'`).toEqual(`'Won't you be my neighbor?'`));
 
-Test: 'It should return an array of numbers from 0 to inputted number'
-Expect(beepBoop(`'5'`).toEqual(`'0, 1, 2, 3, 4, 5'`))
+Test: 'It should return a value of `'Not a valid entry'` if the input value inputted is not an integer'
+Expect(beepBoop(`'banana'`).toEqual(`'Not a valid entry'`))
 
 <!-- Test: 'It converts inputted number to string'
 Expect(beepBoop(0)toEqual(`'0'`));
